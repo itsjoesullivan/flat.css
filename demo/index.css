@@ -1,0 +1,42 @@
+
+.content {
+	margin-bottom:4em;
+}
+
+.narrow-paragraph {
+	width: 40%;
+}
+
+.example.left {
+	border-right: 1px solid #ccc;
+	padding-right: 2em;
+}
+
+.example.right {
+	border-left: 1px solid #ccc;
+	padding-left: 2em;
+}
+
+.example {
+	margin-left:2em;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
+
+.swatches {
+	height: 130px;
+	width: 100%;
+}
+.swatch-set {
+	float: left;
+	margin: 1em;
+}
+.swatch {
+	height: 64px;
+	width: 64px;
+}
+.swatch-label {
+	margin-top:1em;
+	text-align:center;
+	width: 64px;
+}

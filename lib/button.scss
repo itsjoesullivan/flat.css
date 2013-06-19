@@ -1,0 +1,63 @@
+/* buttons */
+
+$button_padding_vertical: 6px;
+$button_padding_horizontal: 9px;
+
+				@mixin foc($color) {
+					border-width: 2px;
+					padding:($button_padding_vertical - 1px) ($button_padding_horizontal - 1px);
+					border-color:darken($color,25%)	;
+					outline: none;
+					
+				}
+
+				@mixin hov($color) {
+					background-color: darken($color,2%) 
+				}
+
+				@mixin act($color) {
+						background-color: darken($color,4%) ;
+				}
+
+
+
+@mixin btn($base_color: #f9f9f9) {
+	$color: lighten($base_color,30%);
+	border: 1px solid darken($color,10%);
+	border-radius:2px;
+	background-color: $color;
+	padding:$button_padding_vertical $button_padding_horizontal;
+
+				
+				&:focus,&.foc {
+				@include foc($color);
+				}
+				&:hover,&.hov {
+				@include hov($color);
+				}
+				&:active,&.act {
+				@include act($color);
+				}
+}
+
+/* grab color */
+@import "color";
+
+
+button {
+	@include btn;
+}
+
+button.blue {
+	@include btn($blue);
+}
+
+button.green {
+	@include btn($green);
+}
+
+
+button.violet {
+	@include btn($violet);
+}
+

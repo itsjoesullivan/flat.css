@@ -1,0 +1,24 @@
+/* Odd headers are all-caps futura */
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'futura-pt';
+	text-transform: uppercase;
+}
+
+/* Standard text definition */
+p {
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	line-height: 24px;
+}
+
+/* Indent paragraphs */
+p {
+	text-indent: 3em;
+}
+
+hr {
+	border: none;
+	border-top: 1px solid #ddd;
+	margin: 2em 0px;
+	
+}
