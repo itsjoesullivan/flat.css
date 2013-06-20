@@ -6,6 +6,16 @@ body {
 	margin: auto;
 }
 
+.grid {
+	position:relative;
+	overflow:auto;
+
+}
+
+.grid > div {
+	float:left;
+}
+
 .w80 {
 	width: 80%;
 }
@@ -16,4 +26,25 @@ body {
 
 .w60 {
 	width: 60%;
+}
+
+.w50 {
+	width: 50%;
+}
+
+.w40 {
+	width: 40%;
+}
+
+
+.w30 {
+	width: 30%;
+}
+
+.w20 {
+	width: 20%;
+}
+
+.w10 {
+	width: 10%;
 }

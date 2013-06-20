@@ -1,6 +1,18 @@
+.hero h1 {
+	font-size: 4em;
+	text-align:center;
+}
 
-.content {
+#menu {
+	position:fixed;
+	margin:auto;
+	left: 5%;
+	width: 20%;
+}
+
+#content {
 	margin-bottom:4em;
+	width: 600px !important;
 }
 
 .narrow-paragraph {
@@ -40,3 +52,5 @@
 	text-align:center;
 	width: 64px;
 }
+
+

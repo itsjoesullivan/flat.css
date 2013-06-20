@@ -1,0 +1,35 @@
+ul.menu {
+	border: 1px solid #ccc;
+	margin: 0;
+	padding:0;
+	list-style-type: none;
+
+	li {
+		text-indent: 2em;
+		padding: 7px 0px;
+		border-bottom: 1px solid #ccc;
+	
+		a {
+			color: black;
+			padding: 4px 0px;
+			display: block;
+			cursor: pointer;
+			text-decoration:none;
+		}
+
+	}
+
+	li.active a, li a.active {
+		text-decoration: underline;
+	}
+	li:hover {
+	
+		a {
+			background-color: #eee;
+		}
+	}
+
+	li:last-child {
+		border-bottom: none;	
+	}
+}

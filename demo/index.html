@@ -5,9 +5,31 @@
 	<link rel='stylesheet' href='index.css' />
 </head>
 <body>
-<div class="content w60">
+
+<div class='hero'>
 <h1>flat.css</h1>
-<div class="typography">
+</div>
+<div class="w30">
+
+<ul id='menu' class="menu">
+	<li>
+		<a href='#typography'>Typography</a>
+	</li>
+	<li>
+		<a href='#colors'>Colors</a>
+	</li>
+	<li>
+		<a href='#buttons' >Buttons</a>
+	</li>
+	<li>
+		<a href='#inputs'>Inputs</a>
+	</li>
+</ul>
+
+
+</div>
+<div id='content' class="content w60">
+<div id='typography' class="typography">
 <h2>Typography</h2>
 
 <h3>Headings</h3>
@@ -21,19 +43,19 @@
 
 <h3>Paragraphs</h3>
 	<p>Spacing between lines is exaggerated. Visitors are encouraged to read between them.</p>
-	<div class="example narrow-paragraph right">
+	<div class="example right">
 		<p>When Arthur Manchek stepped into the small soundproofed booth and sat down before the telephone, he knew exactly what he was going to do--but he was not very sure why he was doing it.</p>
 	</div>
 
 <h3>Italics</h3>
 <p>Italic type is slanted to the right, creating the illusion of cursive.</p>
-<div class='example narrow-paragraph right'>
+<div class='example right'>
 <i>"Beauty is truth, truth beauty," - that is all 
         Ye know on earth, and all ye need to know.</i>
 </div>
 <hr>
-<h1>Colors</h2>
-<p>Colors are not ascribed any meaning--my "primary blue" might be your "feelin' blue"
+<h1 id='colors'>Colors</h2>
+<p>No meaning is ascribed colors--my "primary blue" might be your "feelin' blue"
 <div class="swatches">
 
 <div class="swatch-set">
@@ -56,7 +78,7 @@
 
 </div>
 <hr>
-<h1>Buttons</h1>
+<h1 id='buttons'>Buttons</h1>
 <p>Buttons are flat. Anemic, even.</p>
 <button>Press me</button> 
 <button class='hov'>Hover</button> 
@@ -81,12 +103,31 @@
 <button class='foc violet'>Focused</button>
 
 <hr>
-<h1>Inputs</h1>
+<h1 id='inputs'>Inputs</h1>
 
 <h2>Text</h2>
-<input type='text' placeholder='hi'/>
-<input type='text' placeholder='hi' class='green' />
-<input type='text' placeholder='hi' class='violet' />
+<input type='text' placeholder='Placeholder'/>
+<input type='text' placeholder='Placeholder' class='green' />
+<input type='text' placeholder='Placeholder' class='violet' />
+
+</hr>
+
+<h1>Menus</h1>
+
+<ul class="menu">
+	<li>
+		<a>Typography</a>
+	</li>
+	<li>
+		<a>Colors</a>
+	</li>
+	<li>
+		<a>Buttons</a>
+	</li>
+	<li>
+		<a>Inputs</a>
+	</li>
+</ul>
 
 </div>
 </div>
