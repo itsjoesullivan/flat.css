@@ -592,32 +592,14 @@ input[type="text"] {
   margin: 3px 3px; }
   input[type="text"]:active {
     outline: none; }
+  input[type="text"]:focus {
+    padding: 5px 8px;
+    border-width: 2px; }
 
 input[type='text'].green {
   background-color: #edf8f1;
-  border: 1px solid #b8e1c7; }
+  border-color: #b8e1c7; }
 
 input[type='text'].violet {
   background-color: #efeaf4;
-  border: 1px solid #c8b9d9; }
-ul.menu {
-  border: 1px solid #ccc;
-  margin: 0;
-  padding: 0;
-  list-style-type: none; }
-  ul.menu li {
-    text-indent: 2em;
-    padding: 7px 0px;
-    border-bottom: 1px solid #ccc; }
-    ul.menu li a {
-      color: black;
-      padding: 4px 0px;
-      display: block;
-      cursor: pointer;
-      text-decoration: none; }
-  ul.menu li.active a, ul.menu li a.active {
-    text-decoration: underline; }
-  ul.menu li:hover a {
-    background-color: #eee; }
-  ul.menu li:last-child {
-    border-bottom: none; }
+  border-color: #c8b9d9; }

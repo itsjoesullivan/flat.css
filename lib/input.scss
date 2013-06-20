@@ -10,16 +10,20 @@ input[type="text"] {
 	&:active {
 		outline:none;
 	}
+	&:focus {
+		padding: 5px 8px;
+		border-width:2px;
+	}
 	margin: 3px 3px;
 }
 
 input[type='text'].green {
 	background-color: lighten($green,30%);
-	border: 1px solid lighten($green,15%);
+	border-color: lighten($green,15%);
 }
 
 input[type='text'].violet {
 	background-color: lighten($violet,30%);
-	border: 1px solid lighten($violet,15%);
+	border-color: lighten($violet,15%);
 }
 
