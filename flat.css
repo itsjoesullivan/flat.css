@@ -585,6 +585,7 @@ div.red {
 input[type="text"] {
   border: 0px;
   outline: none;
+  -webkit-appearance: none;
   background-color: #f7f7f7;
   border: 1px solid #ccc;
   border-radius: 1px;
