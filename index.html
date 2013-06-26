@@ -9,9 +9,13 @@
 <div class='hero'>
 <h1>flat.css</h1>
 </div>
-<div class="w30">
-
-<ul data-spy="affix" data-offset-top="50" id='menu' class="menu">
+<div class="grid">
+<div class="w1">
+	<span style='color: #fff'>. </span>
+</div>
+<div class="w20">
+	<span style='color: #fff'>. </span>
+<ul  id='menu' class="menu">
 	<li>
 		<a href='#typography'>Typography</a>
 	</li>
@@ -28,7 +32,11 @@
 
 
 </div>
-<div id='content' class="content w60">
+<div class="w5">
+	<span style='color: #fff'>. </span>
+</div>
+<div id='content' class="w60">
+
 <div id='typography' class="typography">
 <h1>Typography</h1>
 
@@ -110,9 +118,17 @@
 <input type='text' placeholder='Placeholder' class='green' />
 <input type='text' placeholder='Placeholder' class='violet' />
 
+<h2>Check</h2>
+<center>
+<input id='c1' type='checkbox' checked/><label for='c1'>Checked</label>
+<input id='c2' type='checkbox'/><label for='c2'>Unchecked</label>
+</center>
+
 </hr>
 
 <h1>Menus</h1>
+
+<p>A simple menu is provided:</p>
 
 <ul class="menu">
 	<li>
@@ -129,6 +145,14 @@
 	</li>
 </ul>
 
+<pre>&lt;ul class="menu">
+	&lt;li>
+		&lt;a>Typography&lt;/a>
+	&lt;/li>
+	...
+&lt;/ul></pre>
+
+</div>
 </div>
 </div>
 <script src='/demo/js/jquery.min.js'></script>
