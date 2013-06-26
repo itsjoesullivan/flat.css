@@ -447,7 +447,6 @@ body {
 .grid {
 	position:relative;
 	overflow:auto;
-
 }
 
 .grid > div {
@@ -486,6 +485,23 @@ body {
 .w10 {
 	width: 10%;
 }
+
+.w5 {
+	width: 5%;
+}
+
+.w1 {
+	width: 1%;
+}
+pre {
+  padding: 1em;
+  background-color: #f3f3f3;
+  border: 1px solid #bbb;
+  border-radius: 1px;
+  font-size: 0.8em;
+  tab-size: 4;
+  -moz-tab-size: 4;
+  -o-tab-size: 4; }
 /* buttons */
 /* grab color */
 div.blue {
@@ -604,13 +620,29 @@ input[type='text'].green {
 input[type='text'].violet {
   background-color: #efeaf4;
   border-color: #c8b9d9; }
+
+input[type="checkbox"] {
+  display: none; }
+
+input[type="checkbox"]:before {
+  border: 10px solid black; }
+
+input[type="checkbox"] + label {
+  display: inline;
+  padding: 0em 0.5em;
+  border-left: 0.5em solid #ccc;
+  cursor: pointer; }
+
+input[type="checkbox"]:checked + label {
+  border-left: 0.5em solid black;
+  padding-left: 0.5em; }
 ul.menu {
   border: 1px solid #ccc;
   margin: 0;
   padding: 0;
   list-style-type: none; }
   ul.menu li {
-    text-indent: 0em;
+    text-align: center;
     padding: 7px 0px;
     border-bottom: 1px solid #ccc; }
     ul.menu li a {
