@@ -1,17 +1,25 @@
+html, body {
+	height: 100%;
+	width: 100%;
+}
+
 .hero h1 {
 	font-size: 4em;
 	text-align:center;
 }
+.w30{ position: relative; }
 
 #menu {
 	position:fixed;
-	margin:auto;
-	left: 5%;
-	width: 15%;
+	width: inherit;
 }
 
-#content {
+#menu li {
+}
+
+#content.content {
 	margin-bottom:4em;
+	text-align:left !important;
 	width: 600px !important;
 }
 
