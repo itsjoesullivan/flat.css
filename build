@@ -1,0 +1,11 @@
+cat lib/normalize/normalize.css > index.css
+cat lib/futura.css >> index.css
+cat lib/base.css >> index.css
+cat lib/grid.css >> index.css
+sass lib/button.scss >> index.css
+sass lib/color.scss >> index.css
+sass lib/input.scss >> index.css
+sass lib/menu.scss >> index.css
+sass lib/pre.scss >> index.css
+sass lib/main.scss >> index.css
+cp index.css flat.css
