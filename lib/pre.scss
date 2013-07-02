@@ -1,0 +1,10 @@
+@import "settings";
+
+pre {
+	position:relative;
+	margin: 0;
+	background-color: #f7f7f7;
+	border: 1px solid #ddd;
+	padding: 0.5em;
+	font-size: (0.9 * $font-size);
+}
