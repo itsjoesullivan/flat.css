@@ -4,16 +4,8 @@ $break-screen: 800px;
 	margin:auto;
 	max-width: $break-screen;
 }
-
-@media (-webkit-min-device-pixel-ratio: 2) {
+@media (max-width: $break-screen) {
 	.main {
-		max-width: 1600px;
-	}
-}
-
-@media (-webkit-min-device-pixel-ratio: 2) and (max-width: (2 * $break-screen)), (max-width: $break-screen) {
-	.main {
-		margin:0;
 		max-width: 100%;
 	}
 }
